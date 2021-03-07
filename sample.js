@@ -62,7 +62,7 @@ let exportJson = () => {
 };
 
 let deleteNote = (index) => {
-  if(window.confirm('Delete' + shelf[index].name)){
+  if(window.confirm('Delete ' + shelf[index].name + '.')){
       shelf.splice(index, 1);
       window.localStorage.setItem('shelf', JSON.stringify(shelf));
       let notebooks = document.querySelectorAll('.notebook');
