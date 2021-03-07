@@ -1,0 +1,18 @@
+{
+	"name": "anki card",
+	"short_name": "anki",
+	"background_color": "hsl(200, 90%, 97%)",
+	"theme_color": "hsl(200, 90%, 97%)",
+	"description": "This app helps you memorize word and meaning",
+	"icons": [{
+			"src": "./anki_icon_256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},{
+			"src": "./anki_icon_192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+	}],
+	"start_url": "https://keiyakeiya.github.io/anki/",
+	"display": "standalone"
+}
