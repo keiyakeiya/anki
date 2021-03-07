@@ -62,14 +62,16 @@ let exportJson = () => {
 };
 
 let deleteNote = (index) => {
-  shelf.splice(index, 1);
-  window.localStorage.setItem('shelf', JSON.stringify(shelf));
-  let notebooks = document.querySelectorAll('.notebook');
-  let max = notebooks.length -2;
-  for(let i =0; i <=max; i++) {
-    notebooks[i].parentNode.removeChild(notebooks[i]);
-  }
-  homeInitialize();
+  if(window.confirm('Delete' + shelf[index].name)){
+      shelf.splice(index, 1);
+      window.localStorage.setItem('shelf', JSON.stringify(shelf));
+      let notebooks = document.querySelectorAll('.notebook');
+      let max = notebooks.length -2;
+      for(let i =0; i <=max; i++) {
+        notebooks[i].parentNode.removeChild(notebooks[i]);
+      }
+      homeInitialize();
+   }
 };
 
 let addNotebook = (index, bookName) => {
