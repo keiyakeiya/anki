@@ -1,0 +1,93 @@
+#container {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.notebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(200, 90%, 97%);
+  box-shadow: 0 0 2px hsl(200, 10%, 41%);
+  margin-bottom: 10px;
+  /* padding-right: 5px; */
+}
+
+.notebook .bookName {
+  flex: 6;
+}
+
+.notebook .icon {
+  text-align: center;
+  flex: 1;
+  cursor: pointer;
+}
+
+.notebook .icon i {
+  display: block;
+  padding: 10px 5px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.notebook .icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.notebook .bookName a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.notebook #newBookName {
+  margin: 10px 30px;
+  display: block;
+}
+/*
+.notebook .icon span {
+  margin: 0;
+  display: inline;
+} */
+
+#newBook {
+  background-color: hsl(200, 10%, 90%);
+  cursor: pointer;
+}
+
+#newBook .bookName {
+  color: hsl(200, 10%, 60%);
+}
+
+#newBook:active {
+  opacity: 0.5;
+}
+
+#container #import {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background-color: hsl(200, 90%, 97%);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 2px hsl(200, 10%, 41%));
+  cursor: pointer;
+}
+
+#container #import:active {
+  color: rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(0 0 1px hsl(200, 10%, 60%));
+}
+
+#container #import a {
+  text-decoration: none;
+  color: inherit;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
