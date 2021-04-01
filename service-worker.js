@@ -12,15 +12,15 @@
 
 const CACHE_NAME = 'cache-v1';
 const urlsToCache = [
-    './index.html',
-    './common.css',
-    './edit.css',
-    './edit.html',
-    './home.css',
-    './input.html',
-    './sample.js',
-    './test.css',
-    './test.html',
+//     './index.html',
+//     './common.css',
+//     './edit.css',
+//     './edit.html',
+//     './home.css',
+//     './input.html',
+//     './sample.js',
+//     './test.css',
+//     './test.html',
 ];
 
 self.addEventListener('install', (event) => {
