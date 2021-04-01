@@ -8,8 +8,8 @@
   position: fixed;
   top: 0;
   font-size: 20px;
-  /* background-color: hsl(200, 90%, 97%); */
-  background-color: inherit;
+  background-color: hsl(200, 90%, 97%);
+/*   background-color: inherit; */
   box-shadow: 0 0 4px hsl(200, 10%, 41%);
 }
 
