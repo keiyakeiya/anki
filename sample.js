@@ -143,7 +143,6 @@ let editInitialize = () => {
   for(let i =0; i <shelf[clickedBooKIndex].wordList.length; i++) {
     addNewWord(shelf[clickedBooKIndex].wordList[i], shelf[clickedBooKIndex].meaningList[i]);
   }
-  // addNewWord();
 };
 
 let trashCard = (index) => {
