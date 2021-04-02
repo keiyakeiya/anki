@@ -1,8 +1,7 @@
 body {
   margin: 0;
   user-select: none;
-/*   background-color: hsl(200, 90%, 97%); */
-  background-color: red;
+  background-color: hsl(200, 90%, 97%);
   overscroll-behavior-y: none;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
